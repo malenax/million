@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "million"
   gem.require_paths = ["lib"]
   gem.version       = Million::VERSION
+
+  gem.add_development_dependency "rspec", ">= 2.0.0"
 end
