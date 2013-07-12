@@ -23,6 +23,10 @@ describe Million::Pi do
       it_should_behave_like "a valid pi digit", %q(5779458151), true
     end
 
+    it "should have a length of 1 million of digits" do
+      pi.value.size.should eq(1000000)
+    end
+
   end
 
 end
