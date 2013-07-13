@@ -15,5 +15,9 @@ module Million
     def [](index)
     	@value[index]
     end
+
+    def find(string)
+      @value.rindex(string)
+    end
   end
 end
